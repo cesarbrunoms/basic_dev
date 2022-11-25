@@ -24,7 +24,7 @@ void main() {
   int divisaoParteInteira = numero1 ~/ numero2;
   print('Divisao Parte Inteira: $divisaoParteInteira');
 
-    //divisao resto
+  //divisao resto
   int divisaoResto = numero1 % numero2;
   print('Divisao Resto: $divisaoResto');
 }
