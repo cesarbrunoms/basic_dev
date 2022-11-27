@@ -1,18 +1,14 @@
-main() {
-  // exemplo 1
-  var adicao = (int a, int b) {
-    return a + b;
-  };
+import 'dart:math';
 
-  // exemplo 2
-  // '=>' no lugar de 'return'
-  var subtracao = (int a, int b) => a - b;
-  var multiplicacao = (int a, int b) => a * b;
-  var divisao = (int a, int b) => a / b;
+void executar(Function fnPar, Function fnImpar) {
+  var sorteado = Random().nextInt(10);
+  print('Valor sorteado: $sorteado');
+  sorteado % 2 == 0 ? fnPar() : fnImpar();
+}
 
+void main() {
+  var minhaFnPar = () => print('Valor PAR!');
+  var minhaFnImpar = () => print('Valor Impar!');
 
-  print(adicao(4, 19));
-  print(subtracao(9, 13));
-  print(multiplicacao(9, 13));
-  print(divisao(9, 13));
+  executar(minhaFnPar, minhaFnImpar);
 }
