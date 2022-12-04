@@ -19,4 +19,5 @@ void main() {
   dataCompra.mes = 11;
   dataCompra.ano = 2022;
   print('${dataCompra.dia}/${dataCompra.mes}/${dataCompra.ano}');
+
 }
