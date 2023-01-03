@@ -41,4 +41,4 @@ winget install --id=Microsoft.VisualStudioCode -e --accept-package-agreements --
 ~~~
 
 <h3>5 - Instal Composer</h3>
-<p>Source: <br> https://getcomposer.org/
+<a href="https://getcomposer.org/" target="_blank">Composer</a>
