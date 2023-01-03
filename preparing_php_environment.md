@@ -33,12 +33,12 @@ Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\E
 
 ~~~
 
-<h3>4 - Instal VSCode</h3>
+<h3>4 - Install VSCode</h3>
 
 ~~~shell
 winget install --id=Microsoft.VisualStudioCode -e --accept-package-agreements --accept-source-agreements ;  
 
 ~~~
 
-<h3>5 - Instal Composer</h3>
+<h3>5 - Install Composer</h3>
 <a href="https://getcomposer.org/" target="_blank">Composer</a>
